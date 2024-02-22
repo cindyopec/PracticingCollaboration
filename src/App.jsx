@@ -24,7 +24,7 @@
 // export default App;
 
 
-import React from 'react';
+import Hero from './component/Hero/Hero';
 
 const App = () => {
   return (
@@ -32,6 +32,8 @@ const App = () => {
     <div className='container'></div>
       <input type="text"  className='texting' placeholder='Names'/>
       <button>Add Name</button>
+
+      <Hero/>
     
     </>
   );
