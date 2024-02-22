@@ -24,6 +24,7 @@
 // export default App;
 
 
+import Footer from './component/Footer/Footer';
 import Hero from './component/Hero/Hero';
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
       <button>Add Name</button>
 
       <Hero/>
+      <Footer/>
     
     </>
   );
